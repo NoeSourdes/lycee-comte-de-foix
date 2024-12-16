@@ -97,7 +97,7 @@ export const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="grid md:grid-cols-2 grid-col-1 xl:grid-cols-4 gap-16">
+          <div className="grid md:grid-cols-2 grid-col-1 xl:grid-cols-4 md:gap-16 gap-8">
             {footerLinks.map((section, index) => (
               <div key={index} className="space-y-2">
                 <h3 className="font-semibold text-lg">{section.title}</h3>
@@ -117,7 +117,7 @@ export const Footer = () => {
         </div>
         <div className="h-0.5 w-full bg-muted-foreground" />
         <div className="flex items-center justify-between max-md:flex-col gap-5">
-          <div className="flex items-center gap-5 max-sm:flex-col">
+          <div className="flex items-center gap-5 max-sm:flex-col max-sm:text-xs">
             {conditions.map((condition, index) => (
               <p key={index} className="hover:underline cursor-pointer">
                 {condition}
@@ -133,7 +133,7 @@ export const Footer = () => {
           </div>
         </div>
         <div className="h-0.5 w-full bg-muted-foreground" />
-        <p className="text-center text-muted-foreground pb-5">
+        <p className="text-center text-muted-foreground pb-5 max-sm:text-xs">
           Copyright © {year} Lycée Comte de Foix. Tous droits réservés.
         </p>
       </div>
