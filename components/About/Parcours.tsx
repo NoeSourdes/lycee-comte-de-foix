@@ -49,7 +49,7 @@ export const Parcours = () => {
           inspirant.
         </p>
       </div>
-      <Card className="w-full p-28 max-sm:p-20 bg-background flex items-center justify-center gap-10">
+      <Card className="w-full p-28 max-lg:p-20 bg-background flex items-center justify-center gap-10">
         <div className="flex flex-col gap-20 relative">
           {eventData.map((item, index) => (
             <div
@@ -67,7 +67,7 @@ export const Parcours = () => {
                   height={80}
                 />
                 <h3 className="text-3xl font-bold">{item.year}</h3>
-                <div className="absolute top-1/2 -translate-y-1/2 -left-[85px] max-sm:-left-[65px] flex items-center z-20">
+                <div className="absolute top-1/2 -translate-y-1/2 -left-[85px] max-sm:-left-[65px] flex items-center z-20 max-lg:hidden">
                   <div className="size-7 rounded-full border-2 bg-background" />
                   <div className="w-10 max-sm:w-5 h-0.5 bg-black" />
                   <div className="size-7 rounded-full border-2 bg-background" />
@@ -81,7 +81,7 @@ export const Parcours = () => {
               </div>
             </div>
           ))}
-          <div className="absolute top-16 -left-[70px] max-sm:-left-[50px] bottom-16 w-0.5 bg-black z-10" />
+          <div className="absolute top-16 -left-[70px] max-sm:-left-[50px] bottom-16 w-0.5 bg-black z-10 max-lg:hidden" />
         </div>
       </Card>
     </div>

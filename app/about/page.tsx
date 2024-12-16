@@ -1,6 +1,7 @@
 import { MissionAndVision } from "@/components/About/MissionAndVision";
 import { Parcours } from "@/components/About/Parcours";
 import { Realisation } from "@/components/About/Realisation";
+import { Teachers } from "@/components/About/Teachers";
 import { Hero } from "@/components/Hero";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
@@ -15,6 +16,7 @@ export default function Page() {
       <MissionAndVision />
       <Realisation />
       <Parcours />
+      <Teachers />
     </MaxWidthWrapper>
   );
 }
