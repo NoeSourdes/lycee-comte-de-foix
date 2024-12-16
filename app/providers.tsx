@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
 interface ProvidersProps {
@@ -9,6 +10,7 @@ export const Providers = ({ children }: ProvidersProps) => {
     <div className="size-full py-3">
       <Header />
       {children}
+      <Footer />
     </div>
   );
 };

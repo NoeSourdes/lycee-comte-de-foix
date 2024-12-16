@@ -72,7 +72,7 @@ export const Header = () => {
       </div>
       <div className="w-full h-16 rounded-lg border-2 flex items-center justify-between pl-3 overflow-hidden">
         <div className="flex items-center gap-2">
-          <img src="/img/logo.webp" alt="logo" className="h-12 w-12" />
+          <img src="/svg/logo.svg" alt="logo" className="h-12 w-12" />
           <p className="max-sm:text-xs font-bold">LYCÉE COMTE DE FOIX</p>
         </div>
         <div className="flex items-center h-full max-xl:hidden">
