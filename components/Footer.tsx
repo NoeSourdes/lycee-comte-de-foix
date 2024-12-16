@@ -1,7 +1,7 @@
 import { Locate, Mail, Phone } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { RiTwitterXLine } from "react-icons/ri";
-import MaxWidthWrapper from "./MaxWidthWrapper";
+import MaxWidthWrapperNavbar from "./MaxWidthWrapperNavbar";
 import { Button } from "./ui/button";
 
 const links = [
@@ -70,7 +70,7 @@ export const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <MaxWidthWrapper className="flex flex-col gap-3">
+    <MaxWidthWrapperNavbar className="flex flex-col gap-3">
       <div className="border-2 rounded-lg p-5 space-y-10">
         <div className="flex items-start max-md:flex-col gap-5">
           <div className="space-y-5">
@@ -137,6 +137,6 @@ export const Footer = () => {
           Copyright © {year} Lycée Comte de Foix. Tous droits réservés.
         </p>
       </div>
-    </MaxWidthWrapper>
+    </MaxWidthWrapperNavbar>
   );
 };

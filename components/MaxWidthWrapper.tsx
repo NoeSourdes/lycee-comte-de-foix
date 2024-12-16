@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-const MaxWidthWrapperNavbar = ({
+const MaxWidthWrapper = ({
   className,
   children,
 }: {
@@ -9,15 +9,10 @@ const MaxWidthWrapperNavbar = ({
   children: ReactNode;
 }) => {
   return (
-    <div
-      className={cn(
-        "h-full mx-auto w-full max-w-screen-2xl px-2.5 md:px-20",
-        className
-      )}
-    >
-      {children}
+    <div className=" h-full mx-auto w-full max-w-screen-xl px-3 md:px-20 overflow-hidden">
+      <div className={cn("w-full h-full", className)}>{children}</div>
     </div>
   );
 };
 
-export default MaxWidthWrapperNavbar;
+export default MaxWidthWrapper;

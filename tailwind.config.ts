@@ -72,6 +72,7 @@ export default {
       },
       boxShadow: {
         light: "-3px 4px 0px 0px #000",
+        blue: "-3px 4px 0px 0px #60A5FA",
         dark: "-3px 4px 0px 0px #000",
       },
       translate: {
