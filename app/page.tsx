@@ -7,7 +7,7 @@ import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 
 export default function Home() {
   return (
-    <MaxWidthWrapper className="my-20 space-y-20">
+    <MaxWidthWrapper className="my-20 space-y-32">
       <HeroSection />
       <Avantages />
       <Testimonials />
