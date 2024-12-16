@@ -62,7 +62,7 @@ export const Avantages = () => {
         {data.map((item, index) => (
           <Card
             key={index}
-            className="bg-background h-52 flex flex-col justify-center items-start p-8 relative"
+            className="bg-background h-64 flex flex-col justify-center items-start p-8 relative"
           >
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>

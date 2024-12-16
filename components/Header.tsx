@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils";
 import { ArrowRight, Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import MaxWidthWrapperNavbar from "./MaxWidthWrapperNavbar";
 
 const array = [
@@ -47,10 +47,14 @@ const array = [
 
 export const Header = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   return (
     <MaxWidthWrapperNavbar className="flex flex-col gap-3">
-      <div className=" w-full border-2 rounded-lg h-10 bg-blue-300 flex justify-center items-center gap-3 overflow-hidden p-0">
+      <div
+        onClick={() => router.push("/contact")}
+        className=" w-full border-2 rounded-lg h-10 bg-blue-300 flex justify-center items-center gap-3 overflow-hidden p-0 cursor-pointer"
+      >
         <Image
           src="/img/Abstract.webp"
           alt="Abstract_logo"
