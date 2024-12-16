@@ -75,7 +75,10 @@ export const Header = () => {
         />
       </div>
       <div className="w-full h-16 rounded-lg border-2 flex items-center justify-between pl-3 overflow-hidden">
-        <div className="flex items-center gap-2">
+        <div
+          className="flex items-center gap-2 cursor-pointer"
+          onClick={() => router.push("/")}
+        >
           <img
             src="https://i.postimg.cc/fLbKgQgG/Logo.webp"
             alt="logo"
