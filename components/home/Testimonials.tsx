@@ -82,7 +82,7 @@ export const Testimonials = () => {
             {reviews.map((_, index) => (
               <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <Card className="bg-background">
+                  <Card className="bg-background h-96">
                     <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
                       <div className="size-16 rounded-full border-2 bg-blue-100"></div>
                       <p className="text-center mt-4 font-bold">
