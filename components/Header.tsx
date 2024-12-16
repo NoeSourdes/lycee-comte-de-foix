@@ -52,7 +52,7 @@ export const Header = () => {
     <MaxWidthWrapperNavbar className="flex flex-col gap-3">
       <div className=" w-full border-2 rounded-lg h-10 bg-blue-300 flex justify-center items-center gap-3 overflow-hidden p-0">
         <Image
-          src="/Abstract.svg"
+          src="/img/Abstract.webp"
           alt="Abstract_logo"
           width={50}
           height={50}
@@ -63,7 +63,7 @@ export const Header = () => {
         </p>
         <ArrowRight className="max-sm:hidden" />
         <Image
-          src="/Abstract.svg"
+          src="/img/Abstract.webp"
           alt="Abstract_logo"
           width={30}
           height={30}
@@ -72,13 +72,7 @@ export const Header = () => {
       </div>
       <div className="w-full h-16 rounded-lg border-2 flex items-center justify-between pl-3 overflow-hidden">
         <div className="flex items-center gap-2">
-          <Image
-            src="/logo.svg"
-            alt="logo"
-            width={50}
-            height={50}
-            className=""
-          />
+          <Image src="/img/logo.webp" alt="logo" width={50} height={50} />
           <p className="max-sm:text-xs font-bold">LYCÉE COMTE DE FOIX</p>
         </div>
         <div className="flex items-center h-full max-xl:hidden">
