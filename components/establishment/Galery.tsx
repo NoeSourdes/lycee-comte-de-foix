@@ -74,6 +74,12 @@ const sections = [
 export const Galery = () => {
   const [selectItems, setSelectItems] = useState<string>("Tous");
 
+  // Filtrer les sections en fonction du badge sélectionné
+  const filteredSections =
+    selectItems === "Tous"
+      ? sections
+      : sections.filter((section) => section.title === selectItems);
+
   return (
     <div className="space-y-16">
       <div className="w-full flex flex-col justify-center items-center gap-5">
@@ -87,7 +93,7 @@ export const Galery = () => {
           inoubliables dans un environnement conçu pour leur épanouissement.
         </p>
       </div>
-      <div className="flex items-center gap-5 w-full overflow-x-scroll">
+      <div className="flex items-center lg:justify-center gap-5 w-full overflow-x-scroll">
         {galleryItems.map((item, index) => (
           <Badge
             key={index}
@@ -103,7 +109,7 @@ export const Galery = () => {
         ))}
       </div>
       <div className="flex flex-col gap-40 pt-28">
-        {sections.map((item, index) => (
+        {filteredSections.map((item, index) => (
           <div key={index} className="w-full">
             <GaleryComponent
               title={item.title}
