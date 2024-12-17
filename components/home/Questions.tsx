@@ -94,7 +94,7 @@ export const Questions = () => {
           ))}
         </div>
         <div className="flex flex-col gap-4  md:w-1/2 w-full">
-          {faqData.slice(0, 4).map((item, index) => (
+          {faqData.slice(4, 8).map((item, index) => (
             <Accordion
               key={index}
               className="w-full lg:w-[unset]"
