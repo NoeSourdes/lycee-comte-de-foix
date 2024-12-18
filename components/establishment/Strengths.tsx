@@ -24,9 +24,9 @@ export const Strengths = () => {
       icon: ChartNoAxesColumnIncreasing,
     },
     {
-      title: "Language Immersion",
+      title: "Immersion Linguistique",
       description:
-        "Through language immersion programs, children have the opportunity to learn a second language, enhancing cognitive development and global awareness.",
+        "Grâce à nos programmes d’immersion linguistique, les élèves ont l’opportunité d’apprendre une langue étrangère, renforçant leur développement cognitif et leur ouverture sur le monde.",
       icon: Puzzle,
     },
     {

@@ -10,28 +10,34 @@ interface EventData {
 
 const eventData: EventData[] = [
   {
-    year: "2023",
-    title: "Résilience et Nouveaux Horizons",
+    year: "1980",
+    title: "Fondation du Lycée Comte de Foix",
     description:
-      "En s’adaptant aux défis contemporains, nous avons renforcé notre engagement à offrir une éducation de qualité supérieure. Cette année a marqué l’introduction de nouvelles initiatives axées sur le développement des compétences essentielles pour préparer nos élèves à un avenir prometteur.",
+      "Le Lycée Comte de Foix a été fondé en 1980 à Andorre-la-Vieille, concrétisant la promesse faite en 1978 par le coprince Valéry Giscard d'Estaing lors de sa visite pour le septième centenaire du traité de paréage de 1278.",
   },
   {
-    year: "2017",
-    title: "Innovation et Technologie",
+    year: "1994",
+    title: "Ouverture d'une Classe Post-Baccalauréat",
     description:
-      "Introduction de programmes et infrastructures intégrant les nouvelles technologies pour moderniser nos méthodes d’enseignement, tout en encourageant la pensée critique et les compétences numériques chez nos élèves.",
+      "En 1994, le lycée a élargi son offre éducative en ouvrant une classe post-baccalauréat, permettant aux étudiants de poursuivre des études supérieures au sein de l'établissement.",
   },
   {
-    year: "2012",
-    title: "Expansion et Reconnaissance",
+    year: "2013",
+    title: "Renouvellement de la Convention Franco-Andorrane",
     description:
-      "Cette année a marqué une période d’expansion significative et de reconnaissance pour notre lycée. Nous avons accueilli davantage d’élèves et renforcé notre réputation en tant qu’établissement scolaire de référence dans la région.",
+      "Le 11 juillet 2013, la convention entre la France et l'Andorre dans le domaine de l'enseignement a été renouvelée, renforçant la coopération éducative entre les deux pays et confirmant le statut du lycée au sein du service public d'enseignement de la principauté.",
   },
   {
-    year: "2005",
-    title: "Fondation et Croissance",
+    year: "2021",
+    title: "Diversité et Multiculturalisme",
     description:
-      "Établi en 2005, le Lycée Comte de Foix a ouvert ses portes avec la vision de fournir une éducation de qualité supérieure, axée sur le développement académique, personnel et social des élèves.",
+      "À la rentrée de septembre 2021, le lycée comptait environ 1 620 élèves de diverses nationalités, reflétant la diversité culturelle de l'Andorre et l'engagement de l'établissement en faveur d'un environnement éducatif multilingue et inclusif.",
+  },
+  {
+    year: "2024",
+    title: "Participation au Prix Goncourt des Lycéens",
+    description:
+      "En 2024, le lycée a participé au Prix Goncourt des Lycéens, marquant une étape importante dans l'engagement des élèves envers la littérature et les échanges culturels.",
   },
 ];
 
@@ -81,7 +87,7 @@ export const Parcours = () => {
               </div>
             </div>
           ))}
-          <div className="absolute top-16 -left-[70px] max-sm:-left-[50px] bottom-16 w-0.5 bg-black z-10 max-lg:hidden" />
+          <div className="absolute top-16 -left-[70px] max-sm:-left-[50px] bottom-24 w-0.5 bg-black z-10 max-lg:hidden" />
         </div>
       </Card>
     </div>

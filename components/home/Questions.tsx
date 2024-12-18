@@ -15,7 +15,7 @@ const faqData: FAQItem[] = [
   {
     question: "Quels sont les horaires du Lycée Comte de Foix ?",
     answer:
-      "Notre lycée est ouvert de 8h00 à 17h00, du lundi au vendredi. Nous proposons également des options de soutien et d’études surveillées pour les élèves nécessitant une prise en charge avant ou après les heures de cours.",
+      "Notre lycée est ouvert de 8h00 à 18h00, du lundi au vendredi. Nous proposons également des options de soutien et d’études surveillées pour les élèves nécessitant une prise en charge avant ou après les heures de cours.",
   },
   {
     question: "Une tenue est-elle obligatoire pour les élèves ?",

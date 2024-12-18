@@ -50,7 +50,7 @@ export const Header = () => {
   const router = useRouter();
 
   return (
-    <MaxWidthWrapperNavbar className="flex flex-col gap-3">
+    <MaxWidthWrapperNavbar className="flex flex-col gap-3 sticky -top-10 z-50 bg-background">
       <div
         onClick={() => router.push("/contact")}
         className=" w-full border-2 rounded-lg h-10 bg-blue-300 flex justify-center items-center gap-3 overflow-hidden p-0 cursor-pointer"
@@ -74,7 +74,7 @@ export const Header = () => {
           className="mt-7 max-sm:hidden"
         />
       </div>
-      <div className="w-full h-16 rounded-lg border-2 flex items-center justify-between pl-3 overflow-hidden">
+      <div className="w-full h-16 rounded-lg border-2 flex items-center justify-between pl-3 overflow-hidden bg-background">
         <div
           className="flex items-center gap-2 cursor-pointer"
           onClick={() => router.push("/")}

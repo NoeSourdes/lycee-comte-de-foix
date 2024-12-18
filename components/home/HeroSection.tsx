@@ -4,15 +4,15 @@ import { Card } from "../ui/card";
 export const HeroSection = () => {
   const data = [
     { category: "Étudiants déjà accueillis", value: "+7000" },
-    { category: "Années d'expérience", value: "+37" },
-    { category: "Activités éducatives", value: "+15" },
+    { category: "Années d'expérience", value: "+34" },
+    { category: "De taux de reussite au BAC 2023", value: "100%" },
   ];
 
   return (
     <div className="flex items-center gap-14 max-lg:flex-col">
       <div className="relative">
         <Image
-          src="/img/hero.png"
+          src="/img/lycee.jpg"
           alt="Hero"
           width={500}
           height={500}
